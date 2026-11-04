@@ -1,0 +1,19 @@
+{
+  "name": "bbsherpa-e2e",
+  "version": "1.0.0",
+  "description": "Playwright tests for BB Sherpa (bbsherpa.com): page objects, API checks, desktop and mobile projects, CI.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=desktop-chrome",
+    "test:mobile": "playwright test --project=mobile-iphone",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "test-automation", "page-object-model", "ci"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
